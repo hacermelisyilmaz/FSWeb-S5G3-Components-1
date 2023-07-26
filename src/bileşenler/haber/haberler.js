@@ -132,5 +132,11 @@ function haberYapici(aData) {
   const p1 = document.createElement("p");
   p1.textContent = aData.ilkParagraf;
 
+  const p2 = document.createElement("p");
+  p2.textContent = aData.ikinciParagraf;
+
+  const p3 = document.createElement("p");
+  p3.textContent = aData.ucuncuParagraf;
+
   return article;
 }
