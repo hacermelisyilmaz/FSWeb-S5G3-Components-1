@@ -115,3 +115,10 @@ const data = [
   Adım 5: Veri dizisine yeni haber nesnesi eklemeyi deneyin. Diğer verilerle aynı yapıda olmasına dikkat edin.
   Eklediğiniz yeni haberi görmek için sayfayı yenileyin.
 */
+
+function haberYapici(aData) {
+  const article = document.createElement("div");
+  article.className = "article";
+
+  return article;
+}
