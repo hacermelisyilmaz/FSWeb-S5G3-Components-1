@@ -48,4 +48,6 @@ function menuYapici(aMenuElemanlari) {
   });
 
   menu.append(liste);
+
+  const menuButton = document.querySelector(".menu-button");
 }
