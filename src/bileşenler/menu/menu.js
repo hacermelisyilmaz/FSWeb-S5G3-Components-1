@@ -56,3 +56,8 @@ function menuYapici(aMenuElemanlari) {
 
   return menu;
 }
+
+const header = document.querySelector(".header");
+const menu1 = menuYapici(menuElemanlari);
+
+header.append(menu1);
