@@ -125,6 +125,7 @@ function haberYapici(aData) {
   article.append(baslik);
 
   const tarih = document.createElement("p");
+  article.classList = "tarih";
   tarih.textContent = aData.tarih;
   article.append(tarih);
 
