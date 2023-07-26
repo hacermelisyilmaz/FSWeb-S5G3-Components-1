@@ -138,5 +138,9 @@ function haberYapici(aData) {
   const p3 = document.createElement("p");
   p3.textContent = aData.ucuncuParagraf;
 
+  const button = document.createElement("button");
+  button.classList = "expandButton";
+  button.textContent = "+";
+
   return article;
 }
