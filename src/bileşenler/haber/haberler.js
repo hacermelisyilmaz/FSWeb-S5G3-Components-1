@@ -120,5 +120,9 @@ function haberYapici(aData) {
   const article = document.createElement("div");
   article.className = "article";
 
+  const baslik = document.createElement("h2");
+  baslik.textContent = aData.baslik;
+  article.append(baslik);
+
   return article;
 }
