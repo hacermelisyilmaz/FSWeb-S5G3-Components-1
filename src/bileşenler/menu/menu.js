@@ -53,4 +53,6 @@ function menuYapici(aMenuElemanlari) {
   menuButton.addEventListener("click", (e) => {
     menu.classList.toggle("menu--open");
   });
+
+  return menu;
 }
