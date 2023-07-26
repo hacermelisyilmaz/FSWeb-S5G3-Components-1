@@ -152,3 +152,10 @@ function haberYapici(aData) {
 
   return article;
 }
+
+const haberlerBolumu = document.querySelector(".articles");
+
+data.forEach((h) => {
+  const haber = haberYapici(h);
+  haberlerBolumu.append(haber);
+});
