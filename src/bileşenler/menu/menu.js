@@ -50,4 +50,7 @@ function menuYapici(aMenuElemanlari) {
   menu.append(liste);
 
   const menuButton = document.querySelector(".menu-button");
+  menuButton.addEventListener("click", (e) => {
+    menu.classList.toggle("menu--open");
+  });
 }
