@@ -40,4 +40,12 @@ function menuYapici(aMenuElemanlari) {
   menu.classList.add("menu");
 
   const liste = document.createElement("ul");
+
+  aMenuElemanlari.forEach((eleman) => {
+    const listeElemani = document.createElement("li");
+    listeElemani.textContent = eleman;
+    liste.append(listeElemani);
+  });
+
+  menu.append(liste);
 }
