@@ -88,6 +88,18 @@ const data = [
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`,
   },
+  {
+    baslik: "Barbie movie wins box office battle in US",
+    tarih: "24 Temmuz 2023",
+    ilkParagraf:
+      "An estimated $155m (£120m) was made in its opening weekend, the company said. Meanwhile, new release Oppenheimer - also out on Friday - made $93.7m (£72m) in the US, said Universal Pictures. The features come at a time when cinemas in general are struggling as they lose out to competition from streaming.",
+
+    ikinciParagraf:
+      "The opening weekend for Barbie, starring Margot Robbie and Ryan Gosling, has seen its ticket sales overtake that for the opening weekend of blockbuster Super Mario Bros, making Barbie the biggest film of 2023 so far. Worldwide, Barbie's debut took in $337m (£293m).",
+
+    ucuncuParagraf:
+      "On Twitter, one user said that it had been years since she had felt like going to the theatres to re-watch a movie, but Barbie had achieved that for her. She said it would 'remain a timeless masterpiece over the years - ideas really are forever'.",
+  },
 ];
 
 /*
