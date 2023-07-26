@@ -129,5 +129,8 @@ function haberYapici(aData) {
   tarih.textContent = aData.tarih;
   article.append(tarih);
 
+  const p1 = document.createElement("p");
+  p1.textContent = aData.ilkParagraf;
+
   return article;
 }
