@@ -146,5 +146,9 @@ function haberYapici(aData) {
   button.textContent = "+";
   article.append(button);
 
+  button.addEventListener("click", (e) => {
+    article.classList.toggle("article-open");
+  });
+
   return article;
 }
