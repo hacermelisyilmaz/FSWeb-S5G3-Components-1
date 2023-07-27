@@ -134,29 +134,25 @@ function haberYapici(aData) {
 
   const baslik = document.createElement("h2");
   baslik.textContent = aData.baslik;
-  article.append(baslik);
 
   const tarih = document.createElement("p");
-  article.classList = "tarih";
+  article.classList.add("tarih");
   tarih.textContent = aData.tarih;
-  article.append(tarih);
 
   const p1 = document.createElement("p");
   p1.textContent = aData.ilkParagraf;
-  article.append(p1);
 
   const p2 = document.createElement("p");
   p2.textContent = aData.ikinciParagraf;
-  article.append(p2);
 
   const p3 = document.createElement("p");
   p3.textContent = aData.ucuncuParagraf;
-  article.append(p3);
 
   const button = document.createElement("button");
-  button.classList = "expandButton";
+  button.classList.add("expandButton");
   button.textContent = "+";
-  article.append(button);
+
+  article.append(baslik, tarih, p1, p2, p3, button);
 
   button.addEventListener("click", (e) => {
     article.classList.toggle("article-open");
